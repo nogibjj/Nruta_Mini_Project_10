@@ -62,3 +62,14 @@ The dataset has the following features:
 ### 🗃️ Spark SQL Query
 I constructed the following query to analyze the average release year of the biopics alongside the number of subjects they feature:
 ``` SELECT * FROM biopics WHERE number_of_subjects = 4 ;```
+
+The output from that is as follows:
+
+| Title        | Country | Year Release | Box Office | Director        | Number of Subjects | Subject       | Type of Subject | Subject Race | Subject Sex | Lead Actor/Actress |
+|--------------|---------|--------------|------------|-----------------|--------------------|---------------|-----------------|--------------|-------------|---------------------|
+| Jersey Boys  | US      | 2014         | $47M       | Clint Eastwood  | 4                  | Bob Gaudio    | Musician        | White        | Male        | Erich Bergen        |
+| Jersey Boys  | US      | 2014         | $47M       | Clint Eastwood  | 4                  | Frankie Valli | Musician        | White        | Male        | John Lloyd Young    |
+| Jersey Boys  | US      | 2014         | $47M       | Clint Eastwood  | 4                  | Nick Massi    | Musician        | White        | Male        | Michael Lomenda     |
+| Jersey Boys  | US      | 2014         | $47M       | Clint Eastwood  | 4                  | Tommy DeVito  | Musician        | White        | Male        | Vincent Piazza      |
+
+More detailed information can be found [in this output markdown file](pyspark_output.md).
