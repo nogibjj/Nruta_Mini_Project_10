@@ -1,1 +1,1 @@
-# Nruta_Mini_Project_10
+## IDS 706 Mini Project 10 - PySpark Data Processing
