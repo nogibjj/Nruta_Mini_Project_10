@@ -9,6 +9,7 @@ from pyspark.sql.functions import when, col
 
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType
 
+
 LOG_FILE = "pyspark_output.md"
 
 
